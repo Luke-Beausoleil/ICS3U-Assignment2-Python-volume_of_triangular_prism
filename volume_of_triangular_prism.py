@@ -10,10 +10,10 @@ def main():
     # This function calculates the volume of a triangular prism
 
     # input
-    height = int(input("Enter the height of the triangular face in mm: "))
-    base = int(input(
+    height = float(input("Enter the height of the triangular face in mm: "))
+    base = float(input(
         "Enter the width of the base of the triangular face in mm: "))
-    length = int(input("Enter the length of the rectangle face in mm: "))
+    length = float(input("Enter the length of the rectangle face in mm: "))
 
     # process
     volume = (height * base * length) / 2
